@@ -1,14 +1,32 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
+    font-size: 50px;
+}
+h2{
     font-size: 40px;
 }
-.name-hilight{
-    color: rgb(248, 233, 20);
+p{
+    color: dimgrey;
 }
-.btn{
-    color: rgb(236, 125, 13);
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.orenge-hilight{
+    color: rgb(243, 133, 7);
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(255, 136, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: 700;
+
 
 }
 .half-width{
@@ -16,4 +34,34 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding: 150px;
+}
+
+.dream-aria{
+     background-image: url("images/dream-bg.png");
+     background-repeat: no-repeat;
+     background-position: right;
+}
+.box-style{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid coral
+
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
